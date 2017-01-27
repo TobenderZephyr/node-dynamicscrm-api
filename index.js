@@ -2,7 +2,8 @@
 * Module's dependencies
 */
 require('simple-errors');
-var Util    = require('./lib/util.js');
+var Util          = require('./lib/util.js');
+var DynamicsError = require('./lib/error.js');
 
 var Dynamics = function (settings) {
     "use strict";
@@ -48,9 +49,19 @@ var Dynamics = function (settings) {
         util.Execute(options, cb);
     };
 
+    this.RetrieveEntity = function (options, cb) {
+        util.RetrieveEntity(options, cb);
+    };
+
+    this.RetrieveAttribute = function (options, cb) {
+        util.RetrieveAttribute(options, cb);
+    };
+
     this.Delete = function (options, cb) {
         util.Delete(options, cb);
     };
 };
+
+Dynamics.ApiError = DynamicsError;
 
 module.exports = Dynamics;
