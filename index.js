@@ -60,6 +60,10 @@ var Dynamics = function (settings) {
     this.Delete = function (options, cb) {
         util.Delete(options, cb);
     };
+
+    this.Assign = function (options, cb) {
+        util.Assign(options, cb);
+    }
 };
 
 Dynamics.ApiError = DynamicsError;
