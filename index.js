@@ -63,7 +63,11 @@ var Dynamics = function (settings) {
 
     this.Assign = function (options, cb) {
         util.Assign(options, cb);
-    }
+    };
+
+    this.AddToList = function (options, cb) {
+        util.AddToList(options, cb);
+    };    
 };
 
 Dynamics.ApiError = DynamicsError;
