@@ -1,12 +1,12 @@
 {
-    "name": "dynamics-crm-xrm",
-    "version": "1.0.9",
+    "name": "node-dynamicscrm-api",
+    "version": "1.1.1",
     "description": "Pure SOAP module that allows to invoke Microsoft Dynamics CRM Online services",
     "author": "Kidozen <support@kidozen.com>",
     "main": "index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/pradeep-mishra/node-dynamicscrm-api.git"
+        "url": "https://github.com/tobenderzephyr/node-dynamicscrm-api.git"
     },
     "keywords": [
         "dynamics",
