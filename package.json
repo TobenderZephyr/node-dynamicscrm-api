@@ -30,7 +30,7 @@
     },
     "devDependencies": {
         "assert": "0.4.9",
-        "mocha": "^8.4.0",
+        "mocha": "^9.2.1",
         "mockuire": "0.0.4",
         "nock": "0.18.2"
     },
